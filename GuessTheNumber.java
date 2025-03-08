@@ -26,6 +26,8 @@ public class GuessTheNumber {
                     System.out.println("Too low! Try again.");
                 } else if (userGuess > numberToGuess) {
                     System.out.println("Too high! Try again.");
+                    lse if (userGuess > numberToGuess) {
+                    System.out.println("Too high! Try again.");
                 } else {
                     System.out.println("Congratulations! You guessed the number in " + numberOfTries + " tries.");
                 }
