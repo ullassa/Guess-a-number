@@ -17,7 +17,7 @@ public class GuessTheNumber {
         while (userGuess != numberToGuess) {
             System.out.print("Enter your guess: ");
             
-            // Check if the input is an integer
+            
             if (scanner.hasNextInt()) {
                 userGuess = scanner.nextInt();
                 numberOfTries++;
