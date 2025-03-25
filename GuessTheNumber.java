@@ -13,7 +13,7 @@ public class GuessTheNumber {
         System.out.println("Welcome to the Guess the Number game!");
         System.out.println("I have picked a number between 1 and 100. Try to guess it!");
         
-        // Loop until the user guesses the correct number
+        // Loop until the user guesses the correct numbers
         while (userGuess != numberToGuess) {
             System.out.print("Enter your guess: ");
             
